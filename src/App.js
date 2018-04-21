@@ -55,6 +55,7 @@ function initGame() {
   var config = defaults();
 
   config.movable.free = false;
+  config.draggable.enabled = false;
   config.fen = '8/8/8/8/8/8/8/8 w KQkq -'
   config.disableContextMenu = true;
   config.events.move = (orig, dest, capturedPiece) => {
